@@ -5,7 +5,7 @@ import pandas as pd
 st.title("2025년 5월 기준 연령별 인구 현황 분석")
 
 # CSV 파일 읽기 (EUC-KR 인코딩)
-file_path = "202505_202505_연령별인구현황_월간 (1).csv"
+file_path = "202505_202505_연령별인구현황_월간.csv"
 df = pd.read_csv(file_path, encoding='euc-kr')
 
 # 데이터 전처리
