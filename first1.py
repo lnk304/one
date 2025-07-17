@@ -4,6 +4,8 @@ import pandas as pd
 # 제목
 st.title("2025년 5월 기준 연령별 인구 현황 분석")
 
+#uploaded_file = st.file_uploader("csv 파일 업로드하세요(EUC-KR 인코딩)", type="csv")
+
 # 데이터 불러오기 (EUC-KR 인코딩)
 file_path = "./202505_202505_연령별인구현황_월간.csv"
 df = pd.read_csv(file_path, encoding="euc-kr")
