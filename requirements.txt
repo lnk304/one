@@ -1,4 +1,4 @@
 yfinance
 plotly
 folium
-stremlit-folium
+stremlit_folium
